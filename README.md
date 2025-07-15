@@ -1,5 +1,5 @@
 # TrustShare
-Created By: Arthur Gipson
+**Created By:** Arthur Gipson 
 📺 YouTube Video: [https://youtu.be/d28OVuhgGQE](https://youtu.be/6E3PoU6JFGY)
 
 **TrustShare** is a secure file storage and sharing platform. Built with FastAPI (Python) for the backend and React for the frontend, it’s designed to keep your files protected, private, and only accessible to those you trust.
@@ -7,7 +7,7 @@ Created By: Arthur Gipson
 ## Why TrustShare Was Created
 Most companies and agencies rely on third-party applications from big tech companies (like Microsoft, Google, or Dropbox) to share and store their most sensitive files. While these platforms offer convenience, they often store your data on external servers, and you have limited control over true privacy, access, or compliance.
 
-TrustShare was built because:
+## TrustShare was built because:
 
 Sensitive information deserves better protection:
 Relying on outside vendors can expose you to unnecessary risks if their security is breached or their policies change.
