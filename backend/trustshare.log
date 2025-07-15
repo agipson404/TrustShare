@@ -1,0 +1,36 @@
+2025-07-15 03:45:13 WARNING (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/kali/Desktop/trustshare/backend/venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-15 03:45:14 INFO New user registered: arthur
+2025-07-15 03:45:22 INFO New user registered: sandy
+2025-07-15 03:45:30 INFO New user registered: frank
+2025-07-15 03:46:20 INFO User logged in: arthur
+2025-07-15 03:46:22 INFO arthur listed files.
+2025-07-15 03:46:22 INFO arthur listed files.
+2025-07-15 03:46:28 INFO Upload endpoint called by user: arthur
+2025-07-15 03:46:28 WARNING arthur attempted upload with disallowed extension: for sandy only.mp3
+2025-07-15 03:47:22 INFO arthur listed files.
+2025-07-15 03:47:22 INFO arthur listed files.
+2025-07-15 03:47:27 INFO Upload endpoint called by user: arthur
+2025-07-15 03:47:27 INFO arthur uploaded file: for sandy only.txt
+2025-07-15 03:47:27 INFO arthur listed files.
+2025-07-15 03:47:52 INFO arthur shared file 'befa156f_1752565647_b78e544f63f350fd_for sandy only.txt' with sandy
+2025-07-15 03:48:23 INFO User logged in: sandy
+2025-07-15 03:48:26 INFO sandy listed files.
+2025-07-15 03:48:26 INFO sandy listed files.
+2025-07-15 03:49:05 INFO User 'sandy' requested file download: 'befa156f_1752565647_b78e544f63f350fd_for sandy only.txt'
+2025-07-15 03:49:05 INFO File 'befa156f_1752565647_b78e544f63f350fd_for sandy only.txt' is shared with user 'sandy' by owner ID 1
+2025-07-15 03:49:05 INFO User 'sandy' successfully downloaded file: 'befa156f_1752565647_b78e544f63f350fd_for sandy only.txt'
+2025-07-15 03:50:14 INFO Upload endpoint called by user: sandy
+2025-07-15 03:50:14 INFO sandy uploaded file: for arthur only.doc
+2025-07-15 03:50:14 INFO sandy listed files.
+2025-07-15 03:50:21 INFO sandy shared file 'aec6e920_1752565814_3f724a2da25d98da_for arthur only.doc' with arthur
+2025-07-15 03:50:26 INFO User logged in: arthur
+2025-07-15 03:50:27 INFO arthur listed files.
+2025-07-15 03:50:27 INFO arthur listed files.
+2025-07-15 03:50:32 INFO User 'arthur' requested file download: 'aec6e920_1752565814_3f724a2da25d98da_for arthur only.doc'
+2025-07-15 03:50:32 INFO File 'aec6e920_1752565814_3f724a2da25d98da_for arthur only.doc' is shared with user 'arthur' by owner ID 2
+2025-07-15 03:50:32 INFO User 'arthur' successfully downloaded file: 'aec6e920_1752565814_3f724a2da25d98da_for arthur only.doc'
